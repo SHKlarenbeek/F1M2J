@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,88 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Museum Online Javascript</h1>
+    <h1 id="HeadTitle">Museum Online Javascript</h1>
+    <p id="mkBlue">Maak achtergrond blauw</p>
+    <p id="mkDarkblue">Maak achtergrond donker blauw</p>
+    <p id="mkAliceblue">Maak achtergrond licht blauw</p>
+    <p id="mkRed">Maak achtergrond rood</p>
+    <p id="mkBlack">Maak achtergrond zwart</p>
+    <p id="mkGreen">Maak achtergrond groen</p>
+
+    <script>
+        const HeadTitle = document.getElementById("HeadTitle");
+        const mkBlue = document.getElementById("mkBlue");
+        const mkDarkblue = document.getElementById("mkDarkblue");
+        const mkAliceblue = document.getElementById("mkAliceblue");
+        const mkRed = document.getElementById("mkRed");
+        const mkBlack = document.getElementById("mkBlack");
+        const mkGreen = document.getElementById("mkGreen");
+
+
+        HeadTitle.style.color = "teal";
+
+        HeadTitle.addEventListener('click',voeruitHeadTitle);
+        mkBlue.addEventListener('click',voeruitBlue);
+        mkDarkblue.addEventListener('click',voeruitDarkblue);
+        mkAliceblue.addEventListener('click',voeruitAliceblue);
+        mkRed.addEventListener('click',voeruitRed);
+        mkBlack.addEventListener('click',voeruitBlack);
+        mkGreen.addEventListener('click',voeruitGreen);
+
+        function voeruitHeadTitle(){
+            HeadTitle.style.color = "blue";
+        }
+
+        function voeruitBlue(){
+            document.body.style.backgroundColor = "blue";
+            document.body.style.color = "aliceblue";
+            HeadTitle.style.backgroundColor = "lightblue";
+        }
+
+        function voeruitDarkblue(){
+            document.body.style.backgroundColor = "darkblue";
+            document.body.style.color = "aliceblue";
+            HeadTitle.style.backgroundColor = "lightblue";
+        }
+
+        function voeruitAliceblue(){
+            document.body.style.backgroundColor = "aliceblue";
+            document.body.style.color = "teal";
+            HeadTitle.style.backgroundColor = "lightblue";
+        }
+
+        function voeruitRed(){
+            document.body.style.backgroundColor = "red";
+            document.body.style.color = "pink";
+            HeadTitle.style.backgroundColor = "lightblue";
+        }
+
+        function voeruitBlack(){
+            document.body.style.backgroundColor = "black";
+            document.body.style.color = "white";
+            HeadTitle.style.backgroundColor = "lightblue";
+        }
+
+        function voeruitGreen(){
+            document.body.style.backgroundColor = "green";
+            document.body.style.color = "black";
+            HeadTitle.style.backgroundColor = "lightblue";
+        }
+
+        ``` 
+        console.log("hello world");
+
+        document.body.style.color = "teal";
+
+        document.addEventListener('click',mouseHandler)
+
+        function mouseHandler(){
+            console.log('Er is op de muis geklikt')
+            document.body.style.color = "blue";
+        }
+        ```
+
+    </script>
     
 </body>
 </html>
