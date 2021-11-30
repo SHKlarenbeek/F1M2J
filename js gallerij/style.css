@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.button{
+    background-color: lightblue;
+    color: darkblue;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+}
+
+img{
+    margin: 5px;
+    padding: 5px;
+    width: 800px;
+    height: 600px;
+}
+
+.button:hover{
+    background-color: teal;
+}
+
+body{
+    background-color: aliceblue;
+}
