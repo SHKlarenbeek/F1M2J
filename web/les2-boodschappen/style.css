@@ -17,16 +17,20 @@ body{
 section{
     border: 2px solid teal;
     padding: 10px;
-    min-height: 200px;
+    min-height: 100px;
 }
 
 h2{
     margin: 0 0 10px 0;
 }
 
+.navy{
+    color: navy;
+}
+
 button{
     padding: 10px 20px;
-    background-color: aliceblue;
+    background-color: rgb(79, 198, 228);
     color: navy;
     font-size: 18px;
     border: 2px solid teal;
