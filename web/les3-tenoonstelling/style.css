@@ -1,0 +1,28 @@
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+h2{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+img{
+    padding: 30px;
+}
+
+#container{
+    background-color: teal;
+    width: 700px;
+    margin: auto;
+}
+
+button{
+    background-color: #222832;
+    color: white;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 30px;
+}
