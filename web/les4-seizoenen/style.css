@@ -1,0 +1,13 @@
+#container{
+    background-color: aliceblue;
+    width: 700px;
+    height: 500px;
+    margin: 100px auto auto auto;
+}
+h2{
+    padding: 10px;
+}
+button{
+    padding: 5px;
+    margin-top: 10px;
+}
