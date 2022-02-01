@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+button{
+    width: 600px;
+    height: 130px;
+    background-color: teal;
+    border: none;
+    font-size: 200%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    margin-left: 33vw;
+}
+
+button:hover{
+    cursor: pointer;
+}
